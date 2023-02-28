@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imageview_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="199dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:scaleType="center"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+    <TextView
+        android:id="@+id/textView_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="cysec212_donate"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="411dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="46dp"
+        android:hint="username"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+
+        />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="411dp"
+        android:layout_height="46dp"
+        android:hint="password"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#03A9F4"
+        android:hint="login"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#03A9F4"
+        android:hint="cancel" />
+
+    <TextView
+        android:id="@+id/text_attempt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of attempts" />
+
+
+</LinearLayout>
